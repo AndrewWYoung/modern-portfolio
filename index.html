@@ -32,6 +32,10 @@
             height: 100vh;
         }
 
+        #projects {
+            padding-bottom: 128px;
+        }
+
         #projects-title {
             text-align: center;
             padding-top: 50px;
@@ -83,7 +87,6 @@
         }
 
         .flex-center {
-            
             color: white;
             height: 90vh;
 
@@ -99,9 +102,22 @@
         }
 
         .hr-title {
-            width: 5%;
-            border-bottom: 4px solid green;
-            margin-bottom: 32px;
+            width: 50px;
+            margin: 34px auto 64px auto;
+            border: 1px solid green;
+        }
+
+        /*
+        About Me
+        */
+        #about-me {
+            padding-top: 64px;
+        }
+        #about-me-img {
+            padding: 0;
+        }
+        #about-me p {
+            padding: 0 64px;
         }
 
         /*
@@ -224,6 +240,22 @@
             </div>
         </div>
     </div>
+
+    <!-- About Me -->
+    <section class="container-fluid" style="background-color: #f1f3f4">
+        <div class="row">
+            <div id="about-me-img" class="col-6">
+                <img src="assets/computer-code.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div id="about-me" class="col-6">
+                <h1 class="title text-center"> About Me </h1>
+                <hr class="hr-small">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad dolorum magni rerum. Explicabo enim inventore vitae quos, officia dignissimos laborum dolore molestiae nisi temporibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad dolorum magni rerum. Explicabo enim inventore vitae quos, officia dignissimos laborum dolore molestiae nisi temporibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad dolorum magni rerum. Explicabo enim inventore vitae quos, officia dignissimos laborum dolore molestiae nisi temporibus.</p>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
